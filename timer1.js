@@ -6,5 +6,5 @@ for (let timer of timers) {
     setTimeout(() => {
       process.stdout.write('.');
     }, timer * 1000);
-  } 
+  }
 }
